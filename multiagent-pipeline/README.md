@@ -1,4 +1,4 @@
-## Jenkins Pipeline to Check Versions of Maven and Node.js
+## Inside Multiagent Jenkins Pipeline to Check Versions of Maven and Node.js
 This pipeline runs two stages: one for checking the version of Maven and another for checking the version of Node.js. Each stage uses a Docker container with the respective tool's image.
 
 ## Stages:
