@@ -1,0 +1,14 @@
+pipeline{
+    agent{
+        docker { image 'node:latest' }
+    }
+
+    stages{
+        stage('Test'){
+            steps {
+                echo 'Checking the node version:'
+                sh 'node --version'
+            }
+        }
+    }
+}
